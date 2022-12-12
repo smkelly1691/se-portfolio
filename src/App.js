@@ -8,6 +8,7 @@ import ScrollToTop from './components/ScrollToTop/ScrollToTop'
 import Contact from './components/Contact/Contact'
 import Footer from './components/Footer/Footer'
 import './App.css'
+import "./fonts/GreatVibes-Regular.ttf"
 
 const App = () => {
   const [{ themeName }] = useContext(ThemeContext)
@@ -18,8 +19,8 @@ const App = () => {
 
       <main>
         <About />
-        <Projects />
         <Skills />
+        <Projects />
         <Contact />
       </main>
 

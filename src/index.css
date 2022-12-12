@@ -56,3 +56,9 @@ button {
     font-size: 2.6rem;
   }
 }
+
+@font-face {
+  font-family: "Great Vibes";
+  src: local("GreatVibes-Regular"),
+    url("./fonts/GreatVibes-Regular.ttf") 
+}

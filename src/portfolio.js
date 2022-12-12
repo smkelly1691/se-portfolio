@@ -1,25 +1,20 @@
 const header = {
-  // all the properties are optional - can be left empty or deleted
-  homepage: 'https://rajshekhar26.github.io/cleanfolio',
-  title: 'JS.',
+  homepage: 'https://sarahmkelly.com'
 }
 
 const about = {
-  // all the properties are optional - can be left empty or deleted
-  name: 'Sarah Kelly',
-  role: 'Software Engineer',
+  name: 'Sarah Marie Kelly',
+  role: 'Software Engineer | Seattle, WA',
   description:
     'Enjoys writing sensible, highly efficient and usable code to solve complex problems and make a difference.',
-  resume: 'https://sarahkellyresume.tiiny.site/',
-  social: {
-    linkedin: 'https://www.linkedin.com/in/sarah-kelly-se/',
-    github: 'https://github.com/smkelly1691',
-  },
+    resume: 'https://sarahkellyresume.tiiny.site/',
+    social: {
+  linkedin: 'https://www.linkedin.com/in/sarah-kelly-se/',
+  github: 'https://github.com/smkelly1691',
+},
 }
 
 const projects = [
-  // projects can be added an removed
-  // if there are no projects, Projects section won't show up
   {
     name: 'Toddler Time Project',
     description:
@@ -29,42 +24,52 @@ const projects = [
     livePreview: 'https://toddlertime.herokuapp.com',
   },
   {
-    name: 'Project 2',
+    name: 'Kelly Academy Project',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'The Kelly Academy is an activity tracking application where parents of children enrolled in the school program can review data regarding the activity of their child while at school such as specific learning activities while in class and meals served. <br> Sometimes it can be difficult to leave your child, especially those of younger ages, for extended periods of time and being able to access a site/app with recent data about what your child is doing can aid in relieving some of this difficulty',
+    stack: ['EXPRESS', 'NODE', 'MONGODB', 'HTML'],
+    sourceCode: 'https://github.com/smkelly1691/kelly-academy',
+    livePreview: 'https://kelly-academy.onrender.com/',
   },
   {
-    name: 'Project 3',
+    name: 'GoalTracker Project',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'Worked together with two other Software Engineers to create a Full Stack Application. GoalTracker is an application that allows users to set and track personal goals in order to remain productive and motivated. It can be difficult to remember the plethora of high-achieving goals you would like to complete, that is where GoalTracker comes in. With a (few) click(s) of a button(s), you can create, update, complete your goals AND.. add a reward. While this application cannot hand you a physical reward, you can create your own reward to give to yourself.',
+    stack: ['PYTHON', 'HTML', 'CSS'],
+    sourceCode: 'https://github.com/smkelly1691/goaltracker',
+    livePreview: 'https://goaltracker96.herokuapp.com/',
+  },
+  {
+    name: 'Hangman Project',
+    description:
+      'Designed a browser game with win/loss logic as Project 1 for General Assembly’s Software Engineering Immersion Program using HTML, CSS, and JavaScript to render a game in the browser within 7 days. Delivered and deployed a working in-browser game of Hangman that satisfied all technical requirements including win/loss logic and rendered win/loss messages using HTML, Used conventional code including proper indentation and white space, sensible naming conventions, and a clean, styled, presentation.',
+    stack: ['HTML', 'CSS', 'JAVASCRIPT'],
+    sourceCode: 'https://github.com/smkelly1691/hangman',
+    livePreview: 'https://smkelly1691.github.io/hangman/',
   },
 ]
 
 const skills = [
-  // skills can be added or removed
-  // if there are no skills, Skills section won't show up
   'HTML',
   'CSS',
   'JavaScript',
-  'TypeScript',
+  'SQL',
   'React',
-  'Redux',
   'SASS',
   'Material UI',
   'Git',
-  'CI/CD',
-  'Jest',
-  'Enzyme',
+  'GitHub',
+  'Python',
+  'Express',
+  'MongoDB',
+  'AWS',
+  'UNIX',
+  'AJAX',
+  'oAuth'
+
 ]
 
 const contact = {
-  // email is optional - if left empty Contact section won't show up
   email: 'skelly1691@gmail.com',
 }
 
