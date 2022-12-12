@@ -3,6 +3,11 @@
   margin-top: 3em;
 }
 
+.about img {
+  height: 500px;
+  margin: 20px;
+}
+
 .about__name {
   color: var(--clr-primary);
 }
