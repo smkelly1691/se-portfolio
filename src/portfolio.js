@@ -4,9 +4,10 @@ const header = {
 
 const about = {
   name: 'Sarah Marie Kelly',
+  headline: 'Unleashing Innovation Through Pristine Code',
   role: 'Software Engineer | Seattle, WA',
   description:
-    'Enjoys writing sensible, highly efficient and usable code to solve complex problems and make a difference.',
+  'Crafting Intelligent Solutions to Empower Change and Shape the Future',
     resume: 'https://sarahkellyresume.tiiny.site/',
     social: {
   linkedin: 'https://www.linkedin.com/in/sarah-kelly-se/',

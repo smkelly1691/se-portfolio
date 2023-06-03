@@ -42,7 +42,7 @@ img {
 .about__name {
   color: rgb(21, 21, 21);
   font-family: "Great Vibes";
-  font-size: 50px;
+  font-size: 60px;
   font-weight: 400;
   width: fit-content;
   line-height: 1;
@@ -50,6 +50,18 @@ img {
   text-align: center;
   display: inline-block;
   -webkit-font-smoothing: antialiased;
+}
+
+.about__headline {
+  color: rgb(21, 21, 21);
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  font-size: 25px;
+  font-weight: 300;
+  width: fit-content;
+  line-height: 1;
+  letter-spacing: 0;
+  text-align: center;
+  -webkit-font-smoothing:antialiased;
 }
 
 .about__role {
