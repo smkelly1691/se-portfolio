@@ -109,4 +109,23 @@ img {
     align-items: flex-start;
     margin-top: 2em;
   }
+  .about__name {
+    font-size: 60px;
+  }
+  .about__headline {
+    font-size: 23px;
+  }
+}
+
+@media (max-width: 400px) {
+  .app .about {
+    align-items: flex-start;
+    margin-top: 2em;
+  }
+  .about__name {
+    font-size: 50px;
+  }
+  .about__headline {
+    font-size: 15px;
+  }
 }
